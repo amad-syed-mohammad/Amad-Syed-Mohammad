@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Steckbrief von Amad</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Box-Sizing für einfaches Padding/Width Handling */
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+  
+      background-image: url("IMG_1725.jpeg");
+    }
+
+    header {
+      width: 900px;
+      height: 80px;
+      margin: 20px auto;
+      padding: 15px;
+      background-color: #2abde5;
+      color: white;
+      text-align: center;
+      border: 1px rgb(255, 255, 255) groove;
+    }
+
+    h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 50px;
+      color: rgba(2, 0, 128, 0.753);
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: rgb(87, 21, 173);
+      font-style: italic;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    main {
+      width: 900px;
+      margin: 0 auto;
+      padding: 15px;
+      background-color: white;
+      border: 1px rgba(12, 11, 11, 0.728) groove;
+
+      display: flex;
+      justify-content: space-between;
+      gap: 10px; /* Optional: Abstand zwischen den Spalten */
+      min-height: 550px;
+    }
+
+    /* Alle Spalten bekommen gleiche Höhe und Padding */
+    #linke-spalte,
+    #mittlere-spalte,
+    #rechte-spalte {
+      flex: 1; /* alle gleich breit */
+      padding: 10px;
+      min-height: 550px;
+      background-color: #e2e2f3;
+      border: 1px solid #3543da;
+      border-radius: 6px;
+    }
+
+    
+
+    
+     
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mein Steckbrief</h1>
+  </header>
+
+  <main>
+    <!-- Linke Spalte -->
+    <div id="linke-spalte">
+      <h2>Persönliche Informationen</h2>
+      <p><strong>Name:</strong> Amad Syed Mohammad</p>
+      <p><strong>Alter:</strong> 14</p>
+      <p><strong>Wohnort:</strong> Nordstrasse 71</p>
+      <p><strong>PLZ/Ort:</strong> 8006 Zürich</p>
+      <p><strong>E-Mail:</strong> <a href="mailto:amad.syedmohammad@icloud.com">amad.syedmohammad@icloud.com</a></p>
+      <p><strong>Telefon:</strong>  <a href="tel:+41795383431">079 538 34 31</a></p>
+      <img src=img_Portrait-Amad.jpg alt="Portrait-Amad">
+    </div>
+
+    <!-- Mittlere Spalte -->
+    <div id="mittlere-spalte">
+      <h2>Hobbys/ Interessen</h2>
+    <p>-Fußball</p>
+    <p>-Basketball</p>
+    <p>-Tennis</p>
+    <p>-Videospiele</p>
+
+      
+   </div>
+
+    <!-- Rechte Spalte -->
+    <div id="rechte-spalte">
+      <h2>Fähigkeiten & Kenntnisse</h2>
+    <p>-Computer Kenntnisse (Allgemeinwissen über den Aufbau eines Computers, in der Lage einfaches zu Programmieren) </p> <br> 
+    <p>-Sehr gute Englischkenntnisse durch das Ansehen von Filmen und Serien sowie Aufenthalte in englischsprachigen Ländern </p> <br>
+    <p>-Schulkenntnisse in der Französischen Sprache</p><br>
+    <p>-Deutsch und Urdu spreche ich auf Muttersprachlichem Niveau.</p>
+  </div>
+  </main>
+
+</body>
+</html>

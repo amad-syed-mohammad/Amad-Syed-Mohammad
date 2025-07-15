@@ -1,0 +1,38 @@
+main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: white;
+  border: 1px rgba(12, 11, 11, 0.728) groove;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+#linke-spalte,
+#mittlere-spalte,
+#rechte-spalte {
+  width: 30%;
+  min-height: 550px;
+  padding: 10px;
+  
+
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
